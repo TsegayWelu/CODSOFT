@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list system</title>
+    <link rel="stylesheet" href="./css/todo.css">
+</head>
+<body>
+ <div class="container">
+    <div class="todo-app">
+        <h2>to-do list  system<img src="./image/todo.jpg" alt="loading image"></h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="add your task" >
+            <button onclick="addtask()" class="add">add</button><br><br>
+        </div>
+        
+         <ul id="list-container">
+                    <!--  <li class="checked">task 1</li>
+                     <li>task 2</li>
+                     <li>task 3</li> -->
+        </ul> 
+        <br><br>
+        <button class="upd"><a href="codsoft.html">update task</a></button>
+    </div>
+ </div>
+ <script src="todo.js"></script>  
+ <script src="axios.min.js"></script> 
+</body>
+</html>

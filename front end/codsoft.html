@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update task</title>
+    <link rel="stylesheet" href="./css/todo.css">
+</head>
+<body>
+ <div class="container">
+    <div class="todo-app">
+        <h2>to-do list  system<img src="./image/or.PNG" alt="loading image"></h2>
+        <div class="row">
+            <input type="text" id="currenttask" placeholder="type here current task name" ><abbr class="line">
+                 &nbsp; &nbsp;&nbsp; &nbsp;</abbr>
+            <input type="text" id="newtask" placeholder="type here new task name" >
+            <button onclick="updatetask()" class="upde">update</button>
+           
+        </div>
+
+         <ul id="list-container">
+                    <!--  <li class="checked">task 1</li>
+                     <li>task 2</li>
+                     <li>task 3</li> -->
+        </ul> 
+        <br><br>
+        <button class="upd"><a href="todo.html" >add tasks</a></button>
+    </div>
+ </div>
+ <script src="todo.js"></script>  
+ <script src="axios.min.js"></script> 
+</body>
+</html>
